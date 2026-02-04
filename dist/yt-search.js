@@ -6,8 +6,7 @@ const _parallel = require("async.parallellimit");
 _dasu.follow = true;
 _dasu.debug = false;
 
-const util = require("./util.js");
-const { _getScripts, _findLine, _between } = require("./util.js");
+const { _getScripts, _findLine, _between } = require("#util");
 
 const MAX_RETRY_ATTEMPTS = 3;
 const RETRY_INTERVAL = 333; // ms
