@@ -10,7 +10,7 @@
   },
   "files": [
     "bin/**.*",
-    "dist/yt-search.js"
+    "dist/**.*"
   ],
   "scripts": {
     "debug": "debug=1 node src/index.js --silent",
